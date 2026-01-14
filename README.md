@@ -41,5 +41,20 @@ The following visualizations were created directly in Databricks to validate the
 ![Revenue Share by Country](https://github.com/fouler44/sql-and-pyspark-sales-warehouse/blob/main/docs/Revenue%20Share%20by%20Country.png?raw=true)
 ![Total Sales by Month](https://github.com/fouler44/sql-and-pyspark-sales-warehouse/blob/main/docs/Total%20Sales%20by%20Month.png?raw=true)
 
+## Project Structure
+
+- **[datasets/](https://github.com/fouler44/sql-and-pyspark-sales-warehouse/tree/main/datasets)**  
+  Contains the raw input data used in the project.
+
+- **[docs/](https://github.com/fouler44/sql-and-pyspark-sales-warehouse/tree/main/docs)**  
+  Includes project documentation and visual assets such as architecture diagrams, data models, and dashboard screenshots used in this README.
+
+- **[scripts/](https://github.com/fouler44/sql-and-pyspark-sales-warehouse/tree/main/scripts)**  
+  Stores SQL and PySpark scripts used to build the ETL pipeline, including data ingestion, transformations, and data modeling logic.
+
+- **[tests/](https://github.com/fouler44/sql-and-pyspark-sales-warehouse/tree/main/tests)**  
+  Contains validation and testing queries used to verify data quality, integrity, and consistency across the different layers.
+
+
 This project is based on: 
 [SQL Data Warehouse from Scratch by Data with Baraa](https://youtu.be/9GVqKuTVANE?si=RZvC3DB_UuqYm_uX)
